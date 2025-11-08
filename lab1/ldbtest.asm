@@ -1,0 +1,10 @@
+	.ORIG x3000
+	LEA R0, NUM
+	LDB R1, R0, #0
+	LDB R2, R0, #0
+	LDB R3, R1 #-1
+	LDB R4, R2, x2
+	LDB R5, R4, x-A
+NUM	.FILL #3000
+	HALT
+	.END

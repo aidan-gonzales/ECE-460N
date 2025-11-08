@@ -1,0 +1,7 @@
+	.ORIG x6776
+	LSHF R0, R1, #15
+	RSHFL R2, R3, #1
+	RSHFA R4, R5, x1
+	LSHF R6, R7, x2
+	HALT
+	.END

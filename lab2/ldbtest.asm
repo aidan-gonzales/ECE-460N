@@ -1,0 +1,19 @@
+	.ORIG x3000
+	LEA R0, NUM
+	LDB R1, R0, #0
+	LDB R2, R0, #1
+	LDB R3, R0, #2
+	LDB R4, R0, #3
+
+	LEA R0, NUM2
+	LDB R5, R0, #0
+	LDB R6, R0, #1
+	LDB R7, R0, #-1
+	LDB R1, R0, #-2
+
+	HALT
+	
+
+NUM	.FILL x6070
+NUM2	.FILL x8090
+	.END

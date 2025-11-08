@@ -1,0 +1,19 @@
+	.ORIG x3000
+	LEA R0, NUM ; x3000
+	LDW R0, R0, #0 ; x3002
+	BR OVER ; 0x3004
+
+	AND R1, R1, #0 ; x3006
+	AND R2, R2, #0 ; x3008
+	ADD R1, R1, #5 ; x300A
+	ADD R2, R2, #-5 ; x300C
+	RET ; x300E
+
+
+OVER	AND R3, R3, #0 ; x3010
+	ADD R3, R3, #10 ; 0x3012
+	JSRR R0 ; 0x3014
+	HALT ; 0x3016
+
+NUM	.FILL x3006
+	.END

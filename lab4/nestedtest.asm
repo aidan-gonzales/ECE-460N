@@ -1,0 +1,32 @@
+	.ORIG x3000
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	AND R0, R0, #0
+	.FILL xB576
+	.END
+	

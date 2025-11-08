@@ -1,0 +1,128 @@
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 12
+PC                : 0x3018
+CCs: N = 1  Z = 0  P = 0
+Registers:
+0: 0x0001
+1: 0x0001
+2: 0xffff
+3: 0x0000
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 17
+PC                : 0x3022
+CCs: N = 1  Z = 0  P = 0
+Registers:
+0: 0x0001
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 18
+PC                : 0x3024
+CCs: N = 0  Z = 1  P = 0
+Registers:
+0: 0x0000
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 19
+PC                : 0x302a
+CCs: N = 0  Z = 1  P = 0
+Registers:
+0: 0x0000
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 21
+PC                : 0x302e
+CCs: N = 0  Z = 0  P = 1
+Registers:
+0: 0x0001
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 22
+PC                : 0x3034
+CCs: N = 0  Z = 0  P = 1
+Registers:
+0: 0x0001
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 24
+PC                : 0x3038
+CCs: N = 1  Z = 0  P = 0
+Registers:
+0: 0xffff
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 25
+PC                : 0x3030
+CCs: N = 1  Z = 0  P = 0
+Registers:
+0: 0xffff
+1: 0x0001
+2: 0xffff
+3: 0xffff
+4: 0x0000
+5: 0x0000
+6: 0x0000
+7: 0x0000
+

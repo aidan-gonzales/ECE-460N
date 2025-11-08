@@ -1,0 +1,13 @@
+	.ORIG #4242
+	XOR R1, R1, R0
+	XOR R2, R1, #0
+	XOR R3, R2, #1
+	XOR R4, R3, #-1
+	XOR R5, R4, x5
+	XOR R6, R5, x-6
+	TRAP #1
+	TRAP #102
+	TRAP x12
+	TRAP x75
+	HALT
+	.END

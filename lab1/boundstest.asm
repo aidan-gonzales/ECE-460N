@@ -1,0 +1,19 @@
+	.ORIG #3000
+	AND R0, R1, #0
+	AND R0, R1, #15
+	AND R0, R1, #-16
+	ADD R2, R3, #0
+	ADD R2, R3, #15
+	ADD R2, R3, #-16
+;	BR num
+;	AND R0, R0, #0
+;	BRZ NUM2
+;	BR NUM3
+
+;	.orig #3100
+;num	AND R0, R0, #0
+;NUM2	.FILL #3514
+;NUM3	.FILL #3518
+	HALT
+	.END
+

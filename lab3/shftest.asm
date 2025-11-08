@@ -1,0 +1,10 @@
+	.ORIG x3000
+	LEA R0, NUM
+	LDW R0, R0, #0 ; r0 = 0x7390
+	RSHFL R1, R0, #4 ; r1 = 0x0739
+	RSHFA R2, R0, #4 ; r2 = 0x0739
+	LSHF R3, R0, #4 ; r3 = 0x3900
+	HALT
+
+NUM	.FILL x7390
+	.END

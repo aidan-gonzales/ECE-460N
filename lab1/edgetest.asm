@@ -1,0 +1,8 @@
+	.ORIG x3000
+	BR NUM
+	HALT
+
+	.ORIG x3010
+NUM	AND R0, R0, #0
+	HALT
+	.END

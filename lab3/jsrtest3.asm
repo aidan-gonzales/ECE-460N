@@ -1,0 +1,19 @@
+	.ORIG x3000
+	LEA R0, NUM ; x3000
+	NOP ; x3002
+	JSR TEST ; 0x3004
+
+	AND R1, R1, #0 ; x3006
+	AND R2, R2, #0 ; x3008
+	ADD R1, R1, #5 ; x300A
+	ADD R2, R2, #-5 ; x300C
+
+	HALT ; x300E
+
+TEST	AND R3, R3, #0 ; x3010
+	ADD R3, R3, #10 ; 0x3012
+	RET ; 0x3014
+
+
+NUM	.FILL x3010
+	.END

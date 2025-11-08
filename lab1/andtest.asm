@@ -1,0 +1,16 @@
+	.ORIG x3000
+	LEA R0, NUM
+	LDW R1, R0, #0
+	AND R0, R0, #0
+	AND R2, R0, R1
+	AND R2, R2, x2
+	AND R2, R2, x-2
+	AND R2, R2, #2
+	AND R2, R2, #-2
+	HALT
+NUM	.FILL x10
+	.END
+	
+
+
+

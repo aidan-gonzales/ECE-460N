@@ -1,0 +1,6 @@
+	.ORIG x3000
+;	LEA R0, #1
+;	BR x3
+	HALT
+	.END
+

@@ -1,0 +1,29 @@
+	.ORIG x5000
+	LEA R0, NUM
+	LDW R0, R0, #0
+	
+	LSHF R0, R0, #2 ; r0 = 0x0004
+	
+	LEA R1, NUM2
+	LDW R1, R1, #0 ; r1 = 0x8e43
+
+	RSHFL R2, R1, #5 ; r2 = 0x0472
+	RSHFA R3, R1, #5 ; r3 = 0xfc72
+	LSHF R4, R1, #3 ; r4 = 0x7218
+
+	LEA R5, ADDR
+	LDW R5, R5, #0
+	STW R2, R5, #0
+	STW R3, R5, #1
+	STW R4, R5, #-1
+	
+	STB R1, R5, #4
+	STB R1, R5, #0
+	STB R4, R5, #-1
+
+	HALT
+
+NUM	.FILL x1
+NUM2	.FILL x8E43
+ADDR	.FILL x502c
+	.END

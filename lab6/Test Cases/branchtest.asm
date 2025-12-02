@@ -1,0 +1,13 @@
+	.ORIG x3000
+	LEA R0, LABEL
+	LDW R0, R0, #0
+	AND R1, R1, #0
+	
+LOOP	ADD R1, R1, #5
+	ADD R0, R0, #-1
+	BRP LOOP
+	
+	HALT
+
+LABEL	.FILL #10
+	.END

@@ -1,0 +1,30 @@
+	.ORIG x3000
+	LEA R0, DEST2
+	LDW R0, R0, #0 ; R0 = xC000
+	LEA R3, COUNT
+	LDW R3, R3, #0 ; loop count
+	
+	AND R1, R1, #0 ; the sum
+	AND R2, R2, #0 ; the current value being added
+
+LOOP	LDB R2, R0, #0
+	ADD R1, R1, R2
+	ADD R0, R0, #1
+	ADD R3, R3, #-1
+	BRP LOOP
+	
+	LEA R4, DEST3
+	LDW R4, R4, #0
+	STW R1, R4, #0 ;FINAL RESULT SHOULD BE 52
+
+	JMP R1
+	HALT
+
+DEST	.FILL x4000
+DEST2	.FILL xC000
+DEST3	.FILL xC014
+BAD	.FILL xC017
+BAD2	.FILL x0003
+ZERO	.FILL x0000
+COUNT	.FILL x14
+	.END

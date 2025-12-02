@@ -1,0 +1,7 @@
+	.ORIG x3000
+	LEA R0, BAD
+	LDW R0, R0, #0
+	LDW R0, R0, #0
+	HALT
+BAD	.FILL x3226
+	.END

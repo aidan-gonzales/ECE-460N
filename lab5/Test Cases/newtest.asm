@@ -1,0 +1,4 @@
+	.ORIG x3000
+	.FILL xA220
+	HALT
+	.END
